@@ -1,13 +1,18 @@
 body{
+    background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
+.board{
+    background-color: #ffffff;
+}
+
 button{
     align-items: center;
-  background-color: #0A66C2;
+  background-color: rgb(0, 89, 95);
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -40,6 +45,11 @@ button{
     width: 300px;
     justify-content: space-around;
     
+}
+
+
+#black{
+    background-color: black;
 }
 
 
